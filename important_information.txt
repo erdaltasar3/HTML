@@ -1,1 +1,2 @@
 1-) HTML RGB renk sistemini kullanır 
+2-) <table> etiketi kullanirken; colspan = yanyana olan, rolspan = alt alta olan hucrelerin birlestirilmesinde kullanilir.
