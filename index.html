@@ -5,35 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <!--
-        . -> class, # -> id
-    -->
-
-    <style>
-
-        .divOzellik{
-            width: 100%;
-            height: 100px;
-            background-color: antiquewhite;
-            text-align: center;
-            margin-bottom: 10px;
-        }
-
-        #divOzellik2{
-            width: 100%;
-            height: 300px;
-            background-color: rgb(60, 169, 219);
-        }
-
-    </style>
-
+    
 
 
 </head>
 <body>
 
-    <div class="divOzellik">Fenerbahce</div>
-    <div id="divOzellik2">Fenerbahce 2</div>
+   <form >
+    <input type="text" placeholder="Kullanıcı adı">
+    <input type="password" placeholder="şifreniz">
+    <input type="email" placeholder="email adres">
+    <br>
+    kitap okumak <input type="checkbox" id="kitap"><br>
+    spor yapmak <input type="checkbox" id="spor"><br><br>
+    Kadın <input type="radio" name="cinsiyet"><br>
+    Erkek <input type="radio" name="cinsiyet"><br>
+
+    <input type="file"><br><br>
+    İçecek seçiniz : 
+    <select>
+        <option>Çay</option>
+        <option>Kahve</option>
+        <option>Limonata</option>
+    </select>
+    <br><br>
+    <textarea name="mesajInput" id="mesajAlani" cols="70" rows="10"></textarea><br>
+
+
+    <input type="submit" value="Gonder">
+    <input type="reset" value="Temizle">
+
+   </form>
 
 
 </body>
